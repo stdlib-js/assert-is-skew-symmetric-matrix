@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSkewSymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-symmetric-matrix@esm/index.mjs';
+import isSkewSymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-symmetric-matrix@v0.2.0-esm/index.mjs';
 ```
 
 #### isSkewSymmetricMatrix( value )
@@ -74,7 +74,7 @@ var bool = isSkewSymmetricMatrix( arr );
 <script type="module">
 
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
-import isSkewSymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-symmetric-matrix@esm/index.mjs';
+import isSkewSymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-skew-symmetric-matrix@v0.2.0-esm/index.mjs';
 
 var arr = ndarray( 'generic', [ 0, -1, 1, 0 ], [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
 var out = isSkewSymmetricMatrix( arr );
